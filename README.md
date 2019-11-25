@@ -1,3 +1,5 @@
+The scripts here aim to predict redness of automatically segmented tomato through hyprespectral image reconstruction
+
 # keras_resnet_tomato_detection_segmentation
 Google Colab version adapted from  https://github.com/fizyr/keras-retinanet
 can go follow the link directly if there is anything unclear
