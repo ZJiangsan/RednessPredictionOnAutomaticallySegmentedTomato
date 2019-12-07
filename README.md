@@ -12,3 +12,5 @@ This file converts json files generated from labelme to csv files of image names
 The annotations of these tomatoes in the images: first column lists original images's file path while the last column includes the path of these masks of the original images; four columns in the middle indicate where the bounding boxes of tomatoes are.
 # class_tomato
 Show one example class name in csv file
+# spectral2RGB 
+Script coverting spectral image to RGB image can be found at https://github.com/ZJiangsan/Spectral2RGB
