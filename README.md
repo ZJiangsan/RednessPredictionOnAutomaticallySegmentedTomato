@@ -14,3 +14,7 @@ The annotations of these tomatoes in the images: first column lists original ima
 Show one example class name in csv file
 # spectral2RGB 
 Script coverting spectral image to RGB image can be found at https://github.com/ZJiangsan/Spectral2RGB
+# TomatoD_IndividualTomatoReflectanceExtraction
+Python script extract individual tomato spectral reflectance based on segmented tomato images, excluding exposed area
+# TomatoD_RandomForest_FeatureSelectionRegression
+R script combine spectral reflectance and tomato quality measurements and then do random forest feature selection and regression on shape corrected spectral reflectance
