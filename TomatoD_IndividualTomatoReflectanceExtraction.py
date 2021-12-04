@@ -61,12 +61,12 @@ for var_id in var_ids[1:]:
                         print("tomato_id:", int((p-16)/20))
                         
                         ## directly subsample the data and save due to the large size data
-                        shit_x =  hsi_j[rgb_x[:,:,0]==int(p)]
-                        shit_y = (np.ones(shit_x.shape[0])*((p-16)/20)).astype(int)
-                        shit_x_save, shit_x_test, shit_y_save, shit_y_test = train_test_split(shit_x, shit_y, test_size = 0.7, random_state = 0)
+                        shi_x =  hsi_j[rgb_x[:,:,0]==int(p)]
+                        shi_y = (np.ones(shi_x.shape[0])*((p-16)/20)).astype(int)
+                        shi_x_save, shi_x_test, shi_y_save, shi_y_test = train_test_split(shi_x, shi_y, test_size = 0.7, random_state = 0)
                         
-                        shit_x_y_save = np.concatenate((shit_y_save[:, None], shit_x_save), axis = 1)
-                        hsi_var__i = np.concatenate((hsi_var__i, shit_x_y_save), axis = 0)
+                        shi_x_y_save = np.concatenate((shi_y_save[:, None], shi_x_save), axis = 1)
+                        hsi_var__i = np.concatenate((hsi_var__i, shi_x_y_save), axis = 0)
                         print("hsi_var__i", hsi_var__i.shape)
         # save the data in .mat file
         var_name = 'img' # the variable name used in mat file
